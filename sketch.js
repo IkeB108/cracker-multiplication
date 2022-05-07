@@ -248,8 +248,8 @@ function setMult(a, b){
 }
 
 function getNumbersToSum(){
-  var mas = multa + ''
-  var mbs = multb + ''
+  var mas = mult_bigger + ''
+  var mbs = mult_smaller + ''
   multa_digits = mas.length;
   multb_digits = mbs.length;
   var ret = [];
