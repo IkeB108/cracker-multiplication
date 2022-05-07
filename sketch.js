@@ -19,6 +19,8 @@ function setup() {
   textSize(width/10)
   multa = 12;
   multb = 15;
+  mult_smaller = 12
+  mult_bigger = 15
   numbersToSum = getNumbersToSum();
   tileZone = {
     x: width*0.3 + (pxSpacing*3),
